@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:auto;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background: palevioletred;
+    text-align:center;
+
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: cornsilk;
+}
+
+.menu-bar ul li{
+width: 120px;
+margin: 15px;
+padding: 15px;
+cursor: pointer;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu-bar ul li:hover {
+background: rgb(26, 88, 146);
+border-radius: 3px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background: palevioletred;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background: palevioletred;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu-3{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background: palevioletred;
+    margin-top: 15px;
+    margin-left: -15PX;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+}
+
+
+.sub-menu-4{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    background: palevioletred;
+    margin-top: 15px;
+    margin-left: -15PX;
+}
+
+.menu-bar ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 10px;
+}
